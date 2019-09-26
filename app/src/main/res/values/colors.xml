@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color0">#ffff00</color> <!-- 黄色 -->
+    <color name="color1">#00bfff</color> <!-- 深天蓝色 -->
+    <color name="color2">#ff6347</color> <!-- 西红柿色 -->
+    <color name="color3">#7cfc00</color> <!-- 草绿色 -->
+    <color name="color4">#696969</color> <!-- 暗灰色 -->
+    <color name="color5">#ffa500</color> <!-- 橙色 -->
+
+</resources>

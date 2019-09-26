@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btBegin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Begin" />
+        <Chronometer
+            android:id="@+id/chrnoAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team 1"/>
+
+        <Chronometer
+            android:id="@+id/chrnoTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/runner11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/runner12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/runner13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/runner21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/runner22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/runner23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:checked="false" />
+    </LinearLayout>
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 2"
+        android:textColor="@color/color0" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 3"
+        android:textColor="@color/color0" />
+-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End" />
+        <Button
+            android:id="@+id/btResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Results" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
