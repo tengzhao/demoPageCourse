@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Chronometer;
+import android.widget.GridLayout;
 import android.widget.LinearLayout;
 
 import java.lang.reflect.Array;
@@ -15,9 +16,9 @@ import java.lang.reflect.Array;
 public class MainActivity extends AppCompatActivity {
    //button click time
     int runner; //runner id in team
-    int numTeam = 3;////////////////
+    int numTeam = 6;////////////////
     int[] count = new int[numTeam];
-    LinearLayout listTeam;
+    GridLayout listTeam;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         for(int i=0;i<numTeam;i++){
             View oneTeam = View.inflate(this, R.layout.content_oneequipe, null);
+            Button buttonTeam = oneTeam.findViewById(R.id.btTeam);
+            buttonTeam.setText("Team"+(i+1));
             listTeam.addView(oneTeam);
         }
         //Start the match
